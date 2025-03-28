@@ -5,7 +5,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.0.0
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -14,16 +14,29 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  intl: any  # Ensure intl is correctly placed
+  # Ensure compatibility
+  intl: ^0.19.0
 
-  flutter_screenutil: ^5.9.0  # Corrected placement, removed nested dependencies
-  flutter_material_pickers: ^3.6.0  # Check for the latest version on pub.dev
-  rate_my_app: ^1.1.0  # Check for the latest version on pub.dev
+  # UI & State Management
+  flutter_screenutil: ^5.9.0
+  flutter_material_pickers: ^3.6.0
+  rate_my_app: ^1.1.0
+  google_fonts: ^6.1.0  # Use the latest version
+  provider: ^6.1.3  # Use the latest version
+  flutter_swipe_action_cell: ^3.1.0  # Use the latest version from pub.dev
+  table_calendar: ^3.0.9  # Use the latest version from pub.dev
+
+  # Firebase Dependencies (Replace with latest versions from pub.dev)
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+  firebase_messaging: ^15.2.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true

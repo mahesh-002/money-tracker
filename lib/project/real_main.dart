@@ -63,24 +63,24 @@ class _MyAppState extends State<MyApp> {
         builder: (_, child) => MaterialApp(
           title: 'inftech',
           debugShowCheckedModeBanner: false,
-          theme: ThemeData(
-            textTheme: TextTheme(
-              headline3: TextStyle(
-                fontFamily: 'OpenSans',
-                fontSize: 45.0,
-                color: Colors.deepOrangeAccent,
+            theme: ThemeData(
+              textTheme: TextTheme(
+                displaySmall: TextStyle(
+                  fontFamily: 'OpenSans',
+                  fontSize: 45.0,
+                  color: Colors.deepOrangeAccent,
+                ),
+                labelLarge: TextStyle(
+                  fontFamily: 'OpenSans',
+                ),
+                titleMedium: TextStyle(fontFamily: 'NotoSans'),
+                bodyMedium: TextStyle(fontFamily: 'NotoSans'),
               ),
-              button: TextStyle(
-                fontFamily: 'OpenSans',
-              ),
-              subtitle1: TextStyle(fontFamily: 'NotoSans'),
-              bodyText2: TextStyle(fontFamily: 'NotoSans'),
+              colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.indigo)
+                  .copyWith(secondary: Colors.orange),
+              textSelectionTheme:
+              TextSelectionThemeData(cursorColor: Colors.amberAccent),
             ),
-            colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.indigo)
-                .copyWith(secondary: Colors.orange),
-            textSelectionTheme:
-                TextSelectionThemeData(cursorColor: Colors.amberAccent),
-          ),
           builder: (context, widget) => MediaQuery(
             data: MediaQuery.of(context).copyWith(textScaleFactor: 1),
             child: widget!,
