@@ -23,7 +23,7 @@ class SignIn extends StatelessWidget {
       top: Radius.circular(20.0),
     );
     return FlutterLogin(
-      title: 'MMAS',
+      title: 'inftech',
       logo: 'Hi!',
       onSignup: _authenticateUsers,
       onLogin: _authenticateUsers,

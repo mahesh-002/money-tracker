@@ -214,13 +214,13 @@ class _SettingsState extends State<Settings> {
               // }
               else if (int == 6) {
                 Share.share(
-                    'https://apps.apple.com/us/app/mmas-money-tracker-bookkeeper/id1582638369');
+                    'https://apps.apple.com/us/app/inftech-money-tracker-bookkeeper/id1582638369');
               } else {
                 final InAppReview inAppReview = InAppReview.instance;
                 await inAppReview.openStoreListing(
                   appStoreId: Platform.isIOS
                       ? '1582638369'
-                      : 'com.mmas.moneytracker',
+                      : 'com.inftech.moneytracker',
                 );
               }
             },

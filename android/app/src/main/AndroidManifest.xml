@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mmas.moneytracker">
+    package="com.inftech.moneytracker">
    <application
-        android:label="MMAS"
+        android:label="inftech"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
       minLaunches: 1,
       remindDays: 4,
       remindLaunches: 15,
-      googlePlayIdentifier: 'com.mmas.moneytracker',
+      googlePlayIdentifier: 'com.inftech.moneytracker',
       appStoreIdentifier: '1582638369',
     );
 

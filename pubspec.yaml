@@ -18,7 +18,7 @@ dependencies:
 
   flutter_screenutil: ^5.9.0  # Corrected placement, removed nested dependencies
   flutter_material_pickers: ^3.6.0  # Check for the latest version on pub.dev
-
+  rate_my_app: ^1.1.0  # Check for the latest version on pub.dev
 
 dev_dependencies:
   flutter_test:

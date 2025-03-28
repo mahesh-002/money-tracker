@@ -15,9 +15,9 @@
 	<key>BUNDLE_ID</key>
 	<string>com.example.moneyAssistant2608</string>
 	<key>PROJECT_ID</key>
-	<string>mmas-moneytracker</string>
+	<string>inftech-moneytracker</string>
 	<key>STORAGE_BUCKET</key>
-	<string>mmas-moneytracker.appspot.com</string>
+	<string>inftech-moneytracker.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
