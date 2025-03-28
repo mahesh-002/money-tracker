@@ -101,7 +101,7 @@ class _CalendarBodyState extends State<CalendarBody> {
               },
               child: SwipeActionCell(
                 key: ObjectKey(transactions[int]),
-                performsFirstActionWithFullSwipe: true,
+                forceAlignmentToBoundary: true,
                 trailingActions: <SwipeAction>[
                   SwipeAction(
                       title: getTranslated(context, 'Delete') ?? 'Delete',

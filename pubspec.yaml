@@ -24,7 +24,15 @@ dependencies:
   google_fonts: ^6.1.0  # Use the latest version
   provider: ^6.1.3  # Use the latest version
   flutter_swipe_action_cell: ^3.1.0  # Use the latest version from pub.dev
+  day_night_time_picker: ^1.3.0  # Check for the latest version
   table_calendar: ^3.0.9  # Use the latest version from pub.dev
+  keyboard_actions: ^4.2.0
+  sliding_up_panel: ^2.0.0
+  font_awesome_flutter: ^10.6.0
+  share_plus: ^10.1.4
+  in_app_review: ^2.0.9
+  syncfusion_flutter_charts: ^29.1.33
+  flutter_login: ^4.2.1
 
   # Firebase Dependencies (Replace with latest versions from pub.dev)
   firebase_core: ^3.12.1
